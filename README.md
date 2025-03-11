@@ -1,11 +1,11 @@
-# Flight_Delay_Project
+
 # Predicting Flight Delays Using Weather and Airline Data
 
 ## **1. Project Overview**
-This project aims to analyze factors contributing to flight delays and build a predictive model to forecast whether a flight will be delayed based on weather conditions and airline data. The study will leverage publicly available flight and weather datasets to uncover patterns affecting flight punctuality.
+In this project I aim to analyze factors contributing to flight delays and build a predictive model to forecast whether a flight will be delayed based on weather conditions and airline data. The study will leverage publicly available flight and weather datasets to uncover patterns affecting flight punctuality.
 
 ## **2. Motivation**
-Flight delays cause significant inconvenience to passengers and financial losses to airlines. Understanding the key factors that lead to delays can help airlines optimize schedules, improve customer experience, and enhance operational efficiency. By applying data science techniques, we aim to develop a reliable model for predicting flight delays.
+Flight delays cause significant inconvenience to passengers and financial losses to airlines. Due to my parents' work, I've been travelling a lot my whole life and have exprerienced many delays. So, I want to understand the key factors that lead to delays can help airlines optimize schedules, improve customer experience, and enhance operational efficiency. By applying data science techniques, I aim to develop a reliable model for predicting flight delays.
 
 ## **3. Data Sources**
 - **Primary Data**: Publicly available flight data from sources such as:
