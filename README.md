@@ -43,13 +43,21 @@ The project will follow the data science pipeline:
   - Jupyter notebooks for EDA and ML models
 - A final report or interactive dashboard to present findings
 
-## **6. Timeline**
-| Task | Deadline |
-|------|----------|
-| Submit project proposal (GitHub) | March 10 |
-| Data collection and EDA | April 18 |
-| ML model implementation | May 23 |
-| Final report and submission | May 30 |
+## **6. Limitations**
+- **Data Availability:**
+   Real-time flight delay data may not be publicly accessible for all airlines.
+
+- **Weather Impact Complexity:**
+   Weather conditions may interact with multiple other factors affecting delays, making causation difficult to determine.
+
+- **Airport-Specific Variables:**
+   Different airports may have unique operational factors affecting delays that are not captured in the dataset.
+
+- **Model Accuracy:**
+   Machine learning models may not fully capture unpredictable events such as sudden technical issues or emergencies.
+
+
+
 
 ## **7. Tools & Technologies**
 - **Programming Language**: Python
