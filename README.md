@@ -1,77 +1,95 @@
+# Exam Weeks and My Cigarette Consumption
 
-# Predicting Flight Delays Using Weather and Airline Data
 
 ## **1. Project Overview**
-In this project I aim to analyze factors contributing to flight delays and build a predictive model to forecast whether a flight will be delayed based on weather conditions and airline data. The study will leverage publicly available flight and weather datasets to uncover patterns affecting flight punctuality.
+
+This project explores how my cigarette consumption changes during exam weeks. Using personal tracking data, I will analyze smoking patterns and examine correlations between stress levels and cigarette consumption.
 
 ## **2. Motivation**
-Flight delays cause significant inconvenience to passengers and financial losses to airlines. Due to my parents' work, I've been travelling a lot my whole life and have exprerienced many delays. So, I want to understand the key factors that lead to delays can help airlines optimize schedules, improve customer experience, and enhance operational efficiency. By applying data science techniques, I aim to develop a reliable model for predicting flight delays.
+
+Exam periods are often stressful, and habits such as smoking may be influenced by academic pressure. Understanding these patterns could provide insights into how stress impacts behavior and potential ways to manage it.
 
 ## **3. Data Sources**
-- **Primary Data**: Publicly available flight data from sources such as:
-  - FAA (Federal Aviation Administration) flight performance data
-  - Bureau of Transportation Statistics (BTS) on airline on-time performance
-  - OpenSky Network for real-time flight tracking
-- **Enrichment Data**: Weather and airport-related data such as:
-  - OpenWeatherMap API (historical and real-time weather data)
-  - NOAA (National Oceanic and Atmospheric Administration) weather reports
-  - Airport congestion data
+
+- **Primary Data**: Personal tracking of daily cigarette consumption over several weeks, including:
+  - Number of cigarettes smoked per day
+  - Stress levels (self-reported on a scale of 1-10)
+  - Study hours per day
+  - Sleep duration per night
+- **Enrichment Data**: Additional sources such as:
+  - Weather conditions (OpenWeatherMap API)
+  - Academic workload (exam schedules, assignment deadlines)
 
 ## **4. Methodology**
+
 The project will follow the data science pipeline:
-1. **Data Collection**: Acquire historical flight and weather datasets.
+
+1. **Data Collection**: Log daily smoking habits, stress levels, study hours, and sleep duration.
 2. **Data Cleaning & Preprocessing**:
-   - Handle missing values
+   - Handle missing or inconsistent entries
    - Normalize numerical features
-   - Merge flight data with weather data
 3. **Exploratory Data Analysis (EDA)**:
-   - Visualizing trends in flight delays across different airports and times
-   - Understanding correlations between weather conditions and delays
+   - Visualizing trends in smoking frequency over time
+   - Identifying correlations between stress, study load, and cigarette consumption
+   - Graphs and charts for better insights (matplotlib, seaborn, Plotly)
 4. **Hypothesis Testing**:
-   - Assessing statistical significance of factors contributing to flight delays
-5. **Machine Learning Model Development**:
-   - Classification models (Logistic Regression, Random Forest, Gradient Boosting)
-   - Model evaluation using accuracy, precision, recall, and F1-score
+   - Assessing statistical significance of smoking patterns during exam weeks
+5. **Machine Learning Model Development (Optional)**:
+   - Regression models to predict cigarette consumption based on stress levels
+   - Model evaluation using RMSE and R² scores
 6. **Presentation of Results**:
-   - Visualizations (matplotlib, seaborn, Plotly)
+   - Visualizations and insights via graphs and dashboards
    - Summary report on findings and recommendations
 
 ## **5. Expected Deliverables**
+
 - A well-documented **GitHub repository** with:
-  - Python code for data analysis and modeling
+  - Python code for data analysis and visualization
   - `requirements.txt` listing dependencies
-  - Jupyter notebooks for EDA and ML models
-- A final report or interactive dashboard to present findings
+  - Jupyter notebooks for EDA and statistical analysis
+- A final report summarizing insights and personal reflections
 
 ## **6. Limitations**
-- **Data Availability:**
-   Real-time flight delay data may not be publicly accessible for all airlines.
+- **Small Sample Size**: Since the data is personal, it may not be generalizable.
+- **Self-Reported Data**: Subjectivity in stress levels may introduce bias.
+- **External Factors**: Other lifestyle choices (e.g., caffeine intake, exercise) may also influence smoking habits but are not included in this study.
+- **Short-Term Analysis**: The study is limited to a few weeks and may not capture long-term patterns.
 
-- **Weather Impact Complexity:**
-   Weather conditions may interact with multiple other factors affecting delays, making causation difficult to determine.
+## **7. Timeline**
 
-- **Airport-Specific Variables:**
-   Different airports may have unique operational factors affecting delays that are not captured in the dataset.
+| Task                             | Deadline |
+| -------------------------------- | -------- |
+| Submit project proposal (GitHub) | March 10 |
+| Data collection and logging      | April 18 |
+| Data analysis and visualization  | May 23   |
+| Final report and submission      | May 30   |
 
-- **Model Accuracy:**
-   Machine learning models may not fully capture unpredictable events such as sudden technical issues or emergencies.
+## **8. Tools & Technologies**
 
-
-
-
-## **7. Tools & Technologies**
 - **Programming Language**: Python
-- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn, XGBoost
+- **Libraries**: pandas, numpy, matplotlib, seaborn, statsmodels
+- **APIs**: OpenWeatherMap (optional)
 - **Version Control**: GitHub for tracking progress
 
-## **8. Academic Integrity**
+## **9. Future Work**
+- **Expanding Data Collection**: Extending the study across multiple semesters for a larger dataset.
+- **Incorporating More Variables**: Tracking diet, exercise, or other stress-coping mechanisms.
+- **Comparative Study**: Analyzing similar habits among peers to see if trends are consistent.
+- **Machine Learning Implementation**: Developing predictive models based on stress and workload factors.
+- **Behavioral Interventions**: Exploring ways to reduce smoking habits during stressful periods.
+
+## **10. Conclusion**
+This study aims to provide insights into how academic stress influences cigarette consumption. By tracking personal data and analyzing trends, we can gain a better understanding of behavioral responses to stress. While the dataset has its limitations, it serves as a useful exploration of habit formation and stress management strategies.
+
+## **11. Academic Integrity**
+
 All sources will be properly cited. Any use of AI tools will be explicitly documented.
 
 ---
 ### **Next Steps**
+
 1. Set up the GitHub repository and commit this README.md.
-2. Identify the best data sources and begin data collection.
-3. Perform initial exploratory data analysis (EDA).
-4. Keep track of updates and commit regularly to GitHub.
-
-
+2. Organize the folder structure as described.
+3. Begin daily data logging of cigarette consumption and stress levels.
+4. Perform initial exploratory data analysis (EDA) and generate visualizations.
+5. Keep track of updates and commit regularly to GitHub.
