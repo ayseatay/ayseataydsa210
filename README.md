@@ -20,7 +20,6 @@ The dataset for this project consists of several weeks of daily records. Here’
 - **Sleep Duration**: Total sleep duration (hours).
 - **Sleep Quality**: Self-rated sleep quality (scale of 1–10).
 - **Physical Activity**: Whether any exercise was done (Yes/No).
-- **Weather Condition**: Data on temperature, humidity, and conditions (e.g., rainy, sunny).
 - **Day Difficulty**: A self-assessed rating of how challenging the day was (scale of 1–10).
 
 I will record this data daily in an Excel file to maintain consistency and accuracy in collection. Any anomalies resulting from illness, unforeseen circumstances, or major routine shifts will be identified and marked for further analysis.
@@ -54,12 +53,10 @@ The project will follow the data science pipeline:
 ## **6. Tools & Technologies**
 
 - **Programming Language**: Python
-- **Libraries**: pandas, numpy, matplotlib, seaborn, statsmodels
-- **APIs**: OpenWeatherMap (optional)
-- **Version Control**: GitHub for tracking progress
+- **Libraries**: pandas, matplotlib, seaborn
 
 
 ## **7. Conclusion**
-This study aims to provide insights into how academic stress influences cigarette consumption. By tracking personal data and analyzing trends, we can gain a better understanding of behavioral responses to stress. While the dataset has its limitations, it serves as a useful exploration of habit formation and stress management strategies.
+This study aims to provide insights into how academic stress influences cigarette consumption. By tracking personal data and analyzing trends, we can gain a better understanding of behavioral responses to stress. While the dataset has its limitations, these insights could contribute to a better understanding of how academic pressure influences behavior and could lead to the development of effective stress management strategies. Ultimately, this project highlights the importance of self-awareness in managing stress and making informed lifestyle choices. By leveraging data science methodologies, personal experiences can be transformed into meaningful insights that encourage healthier habits and improved well-being. 
 
 
